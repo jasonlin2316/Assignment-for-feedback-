@@ -6,7 +6,7 @@ import {Title, Ul, Li} from '../styled-component/styled-component';
 const MoviePage = (props) => {
   const { myList, recommendationList, handleAdd, handleRemove } = props
   return (
-    <div className="movie-page-container" style={{backgroundColor:'black'}}>
+    <div className="movie-page-container" >
       <img src={logo} style={{width:'auto',height:'100px'}} alt='logo' />
       <TempList listName="My List" list={myList} callback={handleRemove}/>
       <TempList listName="Recommendations" list={recommendationList} callback={handleAdd}/>

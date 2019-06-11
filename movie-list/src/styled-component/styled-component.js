@@ -13,6 +13,7 @@ height:320px
 `
 const Button = styled.button`
 display:none;
+width:100%;
 
 `
 const Li = styled.li`

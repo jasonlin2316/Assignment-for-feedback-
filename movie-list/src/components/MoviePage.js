@@ -3,6 +3,7 @@ import TempList from "./TempList";
 import logo from "../../src/data/Netflix_Logo.png";
 import { connect } from "react-redux";
 import { Title, Ul, Li } from "../styled-component/styled-component";
+
 const MoviePage = props => {
   const { myList, recommendationList, handleAdd, handleRemove } = props;
   return (

@@ -16,7 +16,9 @@ const Button = styled.button`
   width: 100%;
 `;
 const Li = styled.li`
-  margin:5px color:white &:hover ${Button} {
+  margin:5px 
+  color:white 
+  &:hover ${Button} {
     display: block;
   }
 `;

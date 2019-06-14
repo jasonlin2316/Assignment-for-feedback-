@@ -11,10 +11,12 @@ justify-content:left
 list-style:none
 height:320px
 `;
+
 const Button = styled.button`
   display: none;
   width: 100%;
 `;
+
 const Li = styled.li`
   margin:5px 
   color:white 

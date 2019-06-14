@@ -6,10 +6,12 @@ import MoviePage from "./components/MoviePage";
 import { getData } from "./store/action/actionCreator";
 
 class App extends React.Component {
+
   componentDidMount() {
     const action = getData();
     store.dispatch(action);
   }
+  
   render() {
     return (
       <Provider store={store}>
